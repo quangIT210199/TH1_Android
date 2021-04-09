@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--stretchColumns dan~ cac cot-->
+<TableLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow android:layout_marginTop="100dp">
+        <EditText
+            android:id="@+id/eDate"
+            android:hint="enter Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btDate"
+            android:text="Select date"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+
+    </TableRow>
+    <TableRow>
+        <EditText
+            android:id="@+id/eTime"
+            android:hint="enter Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btTime"
+            android:text="Select Time"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </TableRow>
+
+</TableLayout>
